@@ -9,6 +9,10 @@ p {
 p.small {
   font-size: 16px;
 }
+.about{
+  text-align: left;
+  margin-left: 300px;
+}
 a,
 a:hover,
 a:focus,
@@ -20,44 +24,19 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
-hr.star-light,
-hr.star-primary {
-  padding: 0;
-  border: none;
-  border-top: solid 5px;
-  text-align: center;
-  max-width: 250px;
-  margin: 25px auto 30px;
-}
-hr.star-light:after,
-hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em;
-}
-hr.star-light {
-  border-color: white;
-}
-hr.star-light:after {
-  background-color: #18BC9C;
-  color: white;
-}
-hr.star-primary {
-  border-color: #2C3E50;
-}
-hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
+h5{
+ font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+font-size: 20px;
+text-align: center;
+margin-left: 160px;
+margin-top: -260px;
+
 }
 .img-centered {
   margin: 0 auto;
@@ -75,23 +54,23 @@ header .container {
 }
 header img {
   display: block;
-  margin: 0 auto 20px;
+  margin-right: 800px;
+    border: 6px solid white;
+/*  margin-left: -103px;
+*/  position: absolute;
+  top: -200px;
+  width: 206px;
+
 }
-header .intro-text .name {
-  display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 2em;
-}
+
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 400px;
+    padding-bottom: 200px;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -528,7 +507,6 @@ div#maincontent {
 .tech-slideshow > div {
   height: 200px;
   width: 2526px;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
   position: absolute;
   top: 0;
   left: 0;
@@ -552,10 +530,6 @@ div#maincontent {
   100% {
     transform: translateX(-66.6666%);
   }
-}
-
-.Background {
-  background:url("./anim.html");
 }
 
 
@@ -623,4 +597,8 @@ html {
 }
 body {
   margin-bottom: 60px;
+}
+ul{
+  
+list-style: none;
 }
