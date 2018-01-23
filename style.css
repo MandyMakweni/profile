@@ -34,7 +34,8 @@ h5{
   text-transform: uppercase;
 font-size: 20px;
 text-align: center;
-margin-left: 160px;
+margin-left: 200px;
+
 margin-top: -260px;
 
 }
@@ -595,10 +596,15 @@ html {
   position: relative;
   min-height: 100%;
 }
-body {
-  margin-bottom: 60px;
+#img{
+  padding: 4px;
+  height: 250px;
+   width: 260px;
+
+
 }
+
 ul{
-  
+
 list-style: none;
 }
