@@ -1,10 +1,9 @@
-
+@media screen (min-width: 768px) {
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
-@media (min-width: 767px) {
 
 p {
   font-size: 20px;
@@ -32,10 +31,6 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
-}
-
-@media (min-width: 767px) {
-
 h5{
  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -49,8 +44,6 @@ margin-top: -260px;
 .img-centered {
   margin: 0 auto;
 }
-@media (min-width: 767px) {
-
 header {
   text-align: center;
   background: #18BC9C;
@@ -77,8 +70,7 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
-}
-@media (min-width: 768px) {
+@media screen(min-width: 768px) {
   header .container {
     padding-top: 400px;
     padding-bottom: 200px;
@@ -180,7 +172,7 @@ section.success {
     padding-top: 75px;
   }
 }
-@media (min-width: 767px) {
+@media screen(min-width: 768px) {
 
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -505,6 +497,7 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+@media screen(min-width: 768px) {
 
 
 /*Testing Sroller*/
@@ -545,6 +538,7 @@ div#maincontent {
   }
 }
 
+@media screen(min-width: 768px) {
 
 
 /****** Card ******/
@@ -644,7 +638,7 @@ html {
 
 
 }
-
+}
 ul{
 
 list-style: none;
