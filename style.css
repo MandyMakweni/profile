@@ -3,16 +3,21 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
+
+}
 p {
-  font-size: 20px;
+  font-size: 10px;
 }
 p.small {
-  font-size: 16px;
+  font-size: 13px;
+
 }
 .about{
   text-align: left;
-  margin-left: 300px;
+  margin-left: 20px;
+
 }
+
 a,
 a:hover,
 a:focus,
@@ -34,8 +39,6 @@ h5{
   text-transform: uppercase;
 font-size: 20px;
 text-align: center;
-margin-left: 200px;
-
 margin-top: -260px;
 
 }
@@ -48,29 +51,20 @@ header {
   background-image: url("img/background.jpg");
   color: white;
 }
-header .container {
-  padding-top: 100px;
-  padding-bottom: 50px;
 
-}
 header img {
-  display: block;
-  margin-right: 800px;
-    border: 6px solid white;
-/*  margin-left: -103px;
-*/  position: absolute;
-  top: -200px;
-  width: 206px;
+  border: 6px solid white;
+  position: relative;
+  top: -80px;
+  width: 300px;
+  height: 200px;
 
 }
 
-header .intro-text .skills {
-  font-size: 1.25em;
-  font-weight: 300;
-}
+
 @media (min-width: 768px) {
   header .container {
-    padding-top: 400px;
+    padding-top: 280px;
     padding-bottom: 200px;
   }
   header .intro-text .name {
@@ -491,7 +485,7 @@ fieldset[disabled] .btn-success.active {
   transition: top 0.1s ease-in, background 0.5s linear;
 }
 div#maincontent {
-  outline: none;
+
 }
 
 
@@ -541,19 +535,19 @@ div#maincontent {
   border-radius: 3px;
   margin: 30px 0;
   padding: 10px;
+  position: relative;
 }
 /*** Profile Card ***/
 .profile-card {
   margin-top: 117px;
   padding-top: 112px;
   text-align: center;
-  height: 490px;
   position: relative;
 }
 .profile-card .profile-photo {
   border: 6px solid white;
   margin-left: -103px;
-  position: absolute;
+  position: relative;
   top: -103px;
   width: 206px;
 }
