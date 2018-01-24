@@ -484,7 +484,6 @@ fieldset[disabled] .btn-success.active {
   outline: 0;
   transition: top 0.1s ease-in, background 0.5s linear;
 }
-div#maincontent {
 
 }
 
@@ -543,6 +542,8 @@ div#maincontent {
   padding-top: 112px;
   text-align: center;
   position: relative;
+  height: 500px;
+
 }
 .profile-card .profile-photo {
   border: 6px solid white;
