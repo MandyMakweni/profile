@@ -8,12 +8,10 @@ p {
 }
 p.small {
   font-size: 16px;
-  position: relative;
 }
 .about{
   text-align: left;
   margin-left: 300px;
-  position: relative;
 }
 a,
 a:hover,
@@ -549,7 +547,7 @@ div#maincontent {
   margin-top: 112px;
   padding-top: 112px;
   text-align: center;
-
+  height: 490px;
   position: relative;
 }
 .profile-card .profile-photo {
@@ -558,9 +556,6 @@ div#maincontent {
   position: absolute;
   top: -103px;
   width: 206px;
-  overflow: hidden;
-
-
 }
 .tfg{
   margin-left: -103px;
@@ -616,8 +611,8 @@ div#maincontent {
   bottom: 0;
   margin: 0 -10px;
   padding: 4px;
+  position: absolute;
   width: 100%;
-  position: relative;
 }
 .profile-card .card-footer .list-social {
   font-size: 1.75em;
