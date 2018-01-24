@@ -1,4 +1,3 @@
-@media screen (min-width: 768px) {
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -14,6 +13,7 @@ p.small {
 .about{
   text-align: left;
   margin-left: 300px;
+}
 }
 a,
 a:hover,
@@ -70,7 +70,7 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
-@media screen(min-width: 768px) {
+/* @media screen(min-width: 768px) { */
   header .container {
     padding-top: 400px;
     padding-bottom: 200px;
@@ -133,7 +133,7 @@ header .intro-text .skills {
   color: white;
   border-color: #18BC9C;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
   .navbar-custom {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
@@ -172,7 +172,7 @@ section.success {
     padding-top: 75px;
   }
 }
-@media screen(min-width: 768px) {
+/* @media screen(min-width: 768px) { */
 
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -217,7 +217,7 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 767px) {
+/* @media (min-width: 767px) { */
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
@@ -497,7 +497,6 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
-@media screen(min-width: 768px) {
 
 
 /*Testing Sroller*/
@@ -538,7 +537,6 @@ div#maincontent {
   }
 }
 
-@media screen(min-width: 768px) {
 
 
 /****** Card ******/
